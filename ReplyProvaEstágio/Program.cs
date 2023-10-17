@@ -325,7 +325,7 @@ static void Question7()
 
 
 static void Question8() {
-    Calculadora calc = new Calculadora(0, 0);
+    
     int opcao, num1, num2;
     int loop = 1;
 
@@ -350,22 +350,28 @@ static void Question8() {
                 break;
 
             case 1:
+                
                 Console.WriteLine("\nDigite o primeiro número da soma: ");
                 num1 = int.Parse(Console.ReadLine());
                 Console.WriteLine("Digite o segundo número da soma: ");
                 num2 = int.Parse(Console.ReadLine());
+                
+                Calculadora calcSoma = new Calculadora(num1, num2);
 
-                Console.WriteLine("O resultado da soma é: " + calc.Somar(num1, num2));
+                Console.WriteLine("O resultado da soma é: " + calcSoma.Somar());
 
                 break;
 
             case 2:
+                
                 Console.WriteLine("\nDigite o primeiro número do produto: ");
                 num1 = int.Parse(Console.ReadLine());
                 Console.WriteLine("Digite o segundo número do produto: ");
                 num2 = int.Parse(Console.ReadLine());
 
-                Console.WriteLine("O resultado da multiplicação é: " + calc.Multiplicar(num1, num2));
+                Calculadora calcProduto = new Calculadora(num1, num2);
+
+                Console.WriteLine("O resultado da multiplicação é: " + calcProduto.Multiplicar());
 
                 break;
 
@@ -375,7 +381,9 @@ static void Question8() {
                 Console.WriteLine("Digite o desconto (%): ");
                 num2 = int.Parse(Console.ReadLine());
 
-                Console.WriteLine("O resultado do desconto é: " + calc.Descontar(num1, num2));
+                Calculadora calcDesconto = new Calculadora(num1, num2);
+
+                Console.WriteLine("O valor total com o desconto é: " + calcDesconto.Descontar());
 
                 break;
 

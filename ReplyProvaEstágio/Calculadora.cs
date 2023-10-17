@@ -23,31 +23,32 @@ namespace ReplyProvaEstágio
 
 
 
-        public int Somar(int num1, int num2) {
+        public int Somar() {
 
-            if (num1 >= 0 && num2 >= 0)
+            if (_num1 >= 0 && _num2 >= 0)
             {
-                return num1 + num2;
+                return _num1 + _num2;
             }
             else {
                 return 0;   
             }
         }
 
-        public int Multiplicar(int num1, int num2) {
+        public int Multiplicar() {
 
-            if (num2 < 0)
+            if (_num2 < 0)
             {
                 return 0;
             }
             else {
-                return num1 * num2;
+                return _num1 * _num2;
             }
         }
 
-        public int Descontar(int num1, int num2) {
-            int totalDesconto;
-            totalDesconto = (num2 * num2) - num1;
+        public double Descontar() {
+            double totalDesconto, valorDesconto;
+            valorDesconto = (double) _num2 / 100 * (double) _num1;
+            totalDesconto = (double) _num1 - valorDesconto;
 
             return totalDesconto;
         }
