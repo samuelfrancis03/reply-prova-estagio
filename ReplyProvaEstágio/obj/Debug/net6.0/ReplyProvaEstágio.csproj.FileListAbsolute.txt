@@ -1,0 +1,15 @@
+C:\Projetos\ReplyProvaEstágio\ReplyProvaEstágio\bin\Debug\net6.0\ReplyProvaEstágio.exe
+C:\Projetos\ReplyProvaEstágio\ReplyProvaEstágio\bin\Debug\net6.0\ReplyProvaEstágio.deps.json
+C:\Projetos\ReplyProvaEstágio\ReplyProvaEstágio\bin\Debug\net6.0\ReplyProvaEstágio.runtimeconfig.json
+C:\Projetos\ReplyProvaEstágio\ReplyProvaEstágio\bin\Debug\net6.0\ReplyProvaEstágio.dll
+C:\Projetos\ReplyProvaEstágio\ReplyProvaEstágio\bin\Debug\net6.0\ReplyProvaEstágio.pdb
+C:\Projetos\ReplyProvaEstágio\ReplyProvaEstágio\obj\Debug\net6.0\ReplyProvaEstágio.csproj.AssemblyReference.cache
+C:\Projetos\ReplyProvaEstágio\ReplyProvaEstágio\obj\Debug\net6.0\ReplyProvaEstágio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\ReplyProvaEstágio\ReplyProvaEstágio\obj\Debug\net6.0\ReplyProvaEstágio.AssemblyInfoInputs.cache
+C:\Projetos\ReplyProvaEstágio\ReplyProvaEstágio\obj\Debug\net6.0\ReplyProvaEstágio.AssemblyInfo.cs
+C:\Projetos\ReplyProvaEstágio\ReplyProvaEstágio\obj\Debug\net6.0\ReplyProvaEstágio.csproj.CoreCompileInputs.cache
+C:\Projetos\ReplyProvaEstágio\ReplyProvaEstágio\obj\Debug\net6.0\ReplyProvaEstágio.dll
+C:\Projetos\ReplyProvaEstágio\ReplyProvaEstágio\obj\Debug\net6.0\refint\ReplyProvaEstágio.dll
+C:\Projetos\ReplyProvaEstágio\ReplyProvaEstágio\obj\Debug\net6.0\ReplyProvaEstágio.pdb
+C:\Projetos\ReplyProvaEstágio\ReplyProvaEstágio\obj\Debug\net6.0\ReplyProvaEstágio.genruntimeconfig.cache
+C:\Projetos\ReplyProvaEstágio\ReplyProvaEstágio\obj\Debug\net6.0\ref\ReplyProvaEstágio.dll
